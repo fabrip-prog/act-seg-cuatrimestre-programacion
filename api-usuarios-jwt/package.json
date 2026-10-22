@@ -1,0 +1,32 @@
+{
+  "name": "api-usuarios-jwt",
+  "version": "1.0.0",
+  "description": "API REST con arquitectura MVC: registro, login y JWT (material de clase)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "demo": "node _tools/demo-jwt.js",
+    "check": "node _tools/check-login.js",
+    "check:ejercicios": "node _tools/check-nuevos-ejercicios.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "mvc",
+    "jwt",
+    "bcrypt"
+  ],  "author": "Material didactico - Programacion",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

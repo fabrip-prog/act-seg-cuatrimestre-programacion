@@ -1,0 +1,8 @@
+# Configuracion de pnpm para este proyecto.
+#
+# nodeLinker: hoisted
+#   Crea un node_modules "plano" (como npm), con carpetas reales en
+#   lugar de enlaces. Es lo mas compatible con Windows + OneDrive y
+#   evita fallos de resolucion de modulos. Es ademas lo que veran los
+#   alumnos si usan "npm install", asi que el arbol coincide.
+nodeLinker: hoisted

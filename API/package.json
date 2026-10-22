@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/eckerdtleonardo1-tech/API#readme",
+  "bugs": {
+    "url": "https://github.com/eckerdtleonardo1-tech/API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eckerdtleonardo1-tech/API.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js",
+    "dev": "node --watch App.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
